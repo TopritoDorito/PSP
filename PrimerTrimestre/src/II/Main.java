@@ -34,7 +34,7 @@ public class Main {
 				
 			}
 		} catch (Exception e) {
-			e.getMessage();
+			System.err.println("Ha habido un error: "+e.getMessage());
 		}
 
 	}
