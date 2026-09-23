@@ -30,7 +30,7 @@ public class Alumno {
 		super();
 		this.nombre = nombre;
 		this.nota = nota;
-	}
+	} 
 	//prueba subida
 	
 }
