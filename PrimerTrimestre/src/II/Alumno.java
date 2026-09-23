@@ -31,6 +31,6 @@ public class Alumno {
 		this.nombre = nombre;
 		this.nota = nota;
 	}
-	
+	//prueba subida
 	
 }
