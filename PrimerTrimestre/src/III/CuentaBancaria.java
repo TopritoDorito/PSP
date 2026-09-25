@@ -9,6 +9,7 @@ public class CuentaBancaria {
 	private Titular[] titulares = new Titular[3];
 
 	public double getSaldoCuenta() {
+
 		return saldoCuenta;
 	}
 
@@ -38,7 +39,7 @@ public class CuentaBancaria {
 		this.numeroCuenta = numeroCuenta;
 		this.titulares = titulares;
 	}
-
+ 
 	public static void ingresarDinero(double cantidad, double saldoCuenta) {
 		saldoCuenta += cantidad;
 	}
